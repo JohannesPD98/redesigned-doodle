@@ -18,6 +18,7 @@ int main ()
 {
 	double n;
 	printf("Insira o número: ");
+	fflush(stdout);
 	scanf("%lf", &n);
 	double f=fatorial(n);
 	printf("Número=%.0lf, Fatorial=%.0lf\n", n, f);
